@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c061e77c-039a-4a57-a01b-994f546bff93" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/IT_events.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/cable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/channels/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/controllers/concerns/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/jobs/application_job.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/application_record.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/concerns/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/bundle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/rails" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/rake" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/setup" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/spring" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/update" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/yarn" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config.ru" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/boot.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/cable.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/environment.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/puma.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/secrets.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/spring.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/assets/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/log/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/404.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/422.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/500.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/robots.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/application_system_test_case.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/controllers/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/files/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/helpers/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/integration/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/mailers/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/models/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/system/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/test_helper.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmp/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/.keep" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="30" />
+    <option name="y" value="1" />
+    <option name="width" value="953" />
+    <option name="height" value="664" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IT_events" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IT_events" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c061e77c-039a-4a57-a01b-994f546bff93" name="Default" comment="" />
+      <created>1512455729022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512455729022</updated>
+      <workItem from="1512455730490" duration="16000" />
+      <workItem from="1512456049038" duration="203000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="219000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="43" y="-3" width="1323" height="771" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25370803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
