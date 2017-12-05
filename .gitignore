@@ -29,7 +29,7 @@
 !/log/.keep
 !/tmp/.keep
 /public/assets
-*.idea
+*.idea/
 .rvmrc
 
 # Ignore all paperclip uploaded files.
