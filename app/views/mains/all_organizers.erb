@@ -1,0 +1,10 @@
+Список организаторов <br>
+
+<% @all_organizers.each do |organizer| %>
+  <table>
+    <tr>
+      <td><%= link_to organizer.name, about_organizer_path(organizer) %></td>
+      <td><%= organizer.description %></td><br>
+      <% end %>
+    </tr>
+</table>
