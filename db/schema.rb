@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171205095225) do
+ActiveRecord::Schema.define(version: 20171206071325) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
@@ -49,12 +49,15 @@ ActiveRecord::Schema.define(version: 20171205095225) do
     t.string "city"
     t.string "location"
     t.string "date_and_time"
-    t.string "image"
     t.string "external_link"
     t.integer "organizer_id"
     t.integer "region_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "avatar_file_name"
+    t.string "avatar_content_type"
+    t.integer "avatar_file_size"
+    t.datetime "avatar_updated_at"
     t.index ["organizer_id"], name: "index_events_on_organizer_id"
     t.index ["region_id"], name: "index_events_on_region_id"
   end

@@ -5,7 +5,7 @@
 <td><%= "Город:" %> <%= @about_event.city %></td> <br>
 <td><%= "Местоположение:" %> <%= @about_event.location %></td> <br>
 <td><%= "Время:" %> <%= @about_event.date_and_time %></td> <br>
-<td><%= "Картинка:" %> <%= @about_event.image %></td> <br>
+<td><%= "Картинка:" %> <%= image_tag @about_event.avatar.url(:thumb) %></td> <br>
 <td><%= "ссылка:" %> <%= link_to @about_event.external_link, "http://#{@about_event.external_link}" %></td> <br>
 <td><%= "Организатор:" %> <%= link_to @about_event.organizer.name, about_organizer_path %></td> <br>
 <td><%= "Регион:" %> <%= @about_event.region.name %></td> <br>
