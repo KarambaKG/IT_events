@@ -8,7 +8,15 @@ class MainsController < ApplicationController
   end
 
   def about_organizer
-    @organizer = Organizer.find(params[:id])
+    @about_organizer = Organizer.find(params[:id])
+  end
+
+  def all_events
+    @all_events = Event.all
+  end
+
+  def about_event
+    @about_event = Event.find(params[:id])
   end
 
 end

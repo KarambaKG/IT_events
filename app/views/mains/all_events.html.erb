@@ -1,0 +1,10 @@
+Список мероприятий <br>
+
+<% @all_events.each do |event| %>
+  <table>
+    <tr>
+      <td>Мероприятие: <%= link_to event.name, about_event_path(event) %></td>
+      <td><%= event.description %></td><br>
+<% end %>
+</tr>
+</table>
