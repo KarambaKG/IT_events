@@ -9,3 +9,6 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 Organizer.create!(name: 'GoogleOrg', description: 'Hi, I am from Google!')
 Organizer.create!(name: 'DockerOrg', description: 'Hi, I want teach you Docker container!')
+
+Region.create!(name: 'Амурская область')
+Region.create!(name: 'Алтайский край')
