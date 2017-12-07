@@ -12,7 +12,7 @@ class MainsController < ApplicationController
   end
 
   def all_events
-    @all_events = Event.all
+    @all_events = Event.all.order('created_at DESC')
   end
 
   def about_event
