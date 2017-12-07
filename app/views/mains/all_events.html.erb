@@ -1,5 +1,4 @@
 Список мероприятий <br>
-
 <% @all_events.each do |event| %>
   <table>
     <tr>
@@ -8,3 +7,4 @@
 <% end %>
 </tr>
 </table>
+<%= will_paginate @all_events %>

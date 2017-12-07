@@ -12,7 +12,7 @@ class MainsController < ApplicationController
   end
 
   def all_events
-    @all_events = Event.all.order('created_at DESC')
+    @all_events = Event.order('created_at DESC').paginate(:page => params[:page], :per_page => 1)
   end
 
   def about_event
