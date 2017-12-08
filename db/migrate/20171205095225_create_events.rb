@@ -5,7 +5,7 @@ class CreateEvents < ActiveRecord::Migration[5.1]
       t.string :description
       t.string :city
       t.string :location
-      t.string :date_and_time
+      t.datetime :date_and_time
       t.string :external_link
       t.references :organizer, foreign_key: true
       t.references :region, foreign_key: true

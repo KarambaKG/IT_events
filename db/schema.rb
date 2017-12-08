@@ -51,7 +51,7 @@ ActiveRecord::Schema.define(version: 20171206071325) do
     t.string "description"
     t.string "city"
     t.string "location"
-    t.string "date_and_time"
+    t.datetime "date_and_time"
     t.string "external_link"
     t.bigint "organizer_id"
     t.bigint "region_id"

@@ -12,7 +12,27 @@ class MainsController < ApplicationController
   end
 
   def all_events
-    @all_events = Event.order('created_at DESC').paginate(:page => params[:page], :per_page => 1)
+    array_future_events = []
+    all_events = Event.all
+    all_events.each do |event|
+      if event.date_and_time > Time.now
+        array_future_events.push event
+      else next
+      end
+    end
+    @all_future_events = array_future_events.sort_by { |e| e[:date_and_time] }.reverse.paginate(page: params[:page], per_page: 1)
+  end
+
+  def show_past_events
+    array_past_events = []
+    all_events = Event.all
+    all_events.each do |event|
+      if event.date_and_time < Time.now
+        array_past_events.push event
+      else next
+      end
+    end
+    @past_events = array_past_events.paginate(page: params[:page], per_page: 1)
   end
 
   def about_event
@@ -34,18 +54,6 @@ class MainsController < ApplicationController
         render plain: cal.to_ical
       end
     end
-  end
-
-  def show_past_events
-    array_past_events = []
-    all_events = Event.all
-    all_events.each do |event|
-        if event.date_and_time < Time.now
-          array_past_events.push event
-        else next
-        end
-      end
-    @past_events = array_past_events.paginate(:page => params[:page], :per_page => 1)
   end
 
 end

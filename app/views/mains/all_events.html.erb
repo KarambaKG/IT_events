@@ -2,7 +2,7 @@
 
 <div><%= link_to 'Прошедшие мероприятия', show_past_events_path %></div>
 
-<% @all_events.each do |event| %>
+<% @all_future_events.each do |event| %>
   <table>
     <tr>
       <td>Мероприятие: <%= link_to event.name, about_event_path(event) %></td>
@@ -10,4 +10,4 @@
 <% end %>
 </tr>
 </table>
-<%= will_paginate @all_events %>
+<%= will_paginate @all_future_events %>
