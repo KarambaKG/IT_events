@@ -26,7 +26,12 @@ Event.create!(name: 'Google in KB!', description: 'Лучшее событие K
               date_and_time: Time.parse('2016-08-20 13:30'),
               external_link: 'blive.kg', organizer_id: 1, region_id: 1, avatar: image1)
 
-Event.create!(name: 'Docker in Altai!', description: 'Лучшее событие Алтая! Docker и его возможности!',
+Event.create!(name: 'Docker in Altai Barnaul!', description: 'Лучшее событие Алтая! Docker и его возможности!',
               city: 'Барнаул', location: 'Ул. Коммунистическая 22',
               date_and_time: Time.parse('2017-12-31 12:00'),
+              external_link: 'namba.kg', organizer_id: 2, region_id: 2, avatar: image2)
+
+Event.create!(name: 'Docker in Altai Orsha!', description: 'Лучшее событие Алтая! Docker и его возможности!',
+              city: 'Орша', location: 'Ул. Коммунистическая 22',
+              date_and_time: Time.parse('2017-12-20 12:00'),
               external_link: 'namba.kg', organizer_id: 2, region_id: 2, avatar: image2)
