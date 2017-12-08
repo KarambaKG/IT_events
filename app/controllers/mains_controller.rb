@@ -40,15 +40,17 @@ class MainsController < ApplicationController
   end
 
   def about_event_ics_file
+    @event = Event.find(params[:name])
     respond_to do |format|
       format.ics do
         cal = Icalendar::Calendar.new
         cal.x_wr_calname = 'Awesome Rails Calendar'
         cal.event do |e|
-          e.dtstart     = DateTime.now + 2.hours
-          e.dtend       = DateTime.now + 3.hours
-          e.summary     = 'Power Lunch'
-          e.description = 'Get together and do big things'
+          e.dtstart     = @event.date_and_time
+          e.dtend       = @event.date_and_time
+          e.summary     = @event.name
+          e.description = @event.description
+          e.location = @event.location
         end
         cal.publish
         render plain: cal.to_ical

@@ -12,6 +12,6 @@ Rails.application.routes.draw do
   get '/about_event/:id', to: 'mains#about_event', as: 'about_event'
   get '/show_past_events', to: 'mains#show_past_events', as: 'show_past_events'
 
-  get '/about_event', to: 'mains#about_event_ics_file', as: 'about_event_ics_file'
+  get '/about_event_ics_file/:id', to: 'mains#about_event_ics_file', as: 'about_event_ics_file'
 
 end
