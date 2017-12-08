@@ -36,4 +36,16 @@ class MainsController < ApplicationController
     end
   end
 
+  def show_past_events
+    array_past_events = []
+    all_events = Event.all
+    all_events.each do |event|
+        if event.date_and_time < Time.now
+          array_past_events.push event
+        else next
+        end
+      end
+    @past_events = array_past_events.paginate(:page => params[:page], :per_page => 1)
+  end
+
 end

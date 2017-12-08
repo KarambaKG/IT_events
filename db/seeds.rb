@@ -17,9 +17,16 @@ image1 = File.open(Rails.root + 'app/assets/images/ок.png')
 image2 = File.open(Rails.root + 'app/assets/images/фейсбук.png')
 
 Event.create!(name: 'Google in Amur!', description: 'Лучшее событие Амура! Google и его возможности!',
-              city: 'Белогорск', location: 'Ул. Спортивная 10', date_and_time: '14 мая в 14.00',
+              city: 'Белогорск', location: 'Ул. Спортивная 10',
+              date_and_time: Time.parse('2016-08-20 13:30'),
+              external_link: 'blive.kg', organizer_id: 1, region_id: 1, avatar: image1)
+
+Event.create!(name: 'Google in KB!', description: 'Лучшее событие KB! Google и его возможности!',
+              city: 'Карабалта', location: 'Ул. Спортивная 10',
+              date_and_time: Time.parse('2016-08-20 13:30'),
               external_link: 'blive.kg', organizer_id: 1, region_id: 1, avatar: image1)
 
 Event.create!(name: 'Docker in Altai!', description: 'Лучшее событие Алтая! Docker и его возможности!',
-              city: 'Барнаул', location: 'Ул. Коммунистическая 22', date_and_time: '5 апреля в 12.00',
+              city: 'Барнаул', location: 'Ул. Коммунистическая 22',
+              date_and_time: Time.parse('2017-12-31 12:00'),
               external_link: 'namba.kg', organizer_id: 2, region_id: 2, avatar: image2)
