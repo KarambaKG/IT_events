@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get '/list_organizers', to: 'mains#all_organizers', as: 'all_organizers'
   get '/about_organizer/:id', to: 'mains#about_organizer', as: 'about_organizer'
 
-  get '/list_events', to: 'mains#all_events', as: 'all_events'
+  get '/all_future_events', to: 'mains#all_future_events', as: 'all_future_events'
   get '/about_event/:id', to: 'mains#about_event', as: 'about_event'
   get '/show_past_events', to: 'mains#show_past_events', as: 'show_past_events'
 

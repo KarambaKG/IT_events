@@ -2,4 +2,7 @@
 
 <td><%= "Имя:" %> <%= @about_organizer.name %></td> <br>
 <td><%= "Описание:" %> <%= @about_organizer.description %></td><br><br>
-<td><%= "Cписок проведённых мероприятий" %></td>
+<td><%= "Cписок проведённых мероприятий" %></td> <br>
+<td><% @sort_past_events.each do |event| %></td>
+  <%= link_to event.name, about_event_path(event.id) %>
+<% end %>

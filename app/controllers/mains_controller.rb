@@ -9,9 +9,22 @@ class MainsController < ApplicationController
 
   def about_organizer
     @about_organizer = Organizer.find(params[:id])
+    all_events_organizer = Event.where(organizer_id: @about_organizer)
+    @sort_past_events = []
+    all_events_organizer.each do |event|
+      if event.date_and_time < Time.now
+        @sort_past_events.push event
+      else next
+      end
+    end
   end
 
-  def all_events
+  def about_event
+    @about_event = Event.find(params[:id])
+    @about_event_organizer_id = @about_event.organizer_id
+  end
+
+  def all_future_events
     array_future_events = []
     all_events = Event.all
     all_events.each do |event|
@@ -33,11 +46,6 @@ class MainsController < ApplicationController
       end
     end
     @past_events = array_past_events.paginate(page: params[:page], per_page: 1)
-  end
-
-  def about_event
-    @about_event = Event.find(params[:id])
-    @about_event_organizer_id = @about_event.organizer_id
   end
 
   def about_event_ics_file
