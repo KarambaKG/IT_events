@@ -37,6 +37,7 @@ class MainsController < ApplicationController
 
   def about_event
     @about_event = Event.find(params[:id])
+    @about_event_organizer_id = @about_event.organizer_id
   end
 
   def about_event_ics_file

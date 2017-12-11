@@ -7,7 +7,7 @@
 <td><%= "Время:" %> <%= @about_event.date_and_time %></td> <br>
 <td><%= "Картинка:" %> <%= image_tag @about_event.avatar.url(:thumb) %></td> <br>
 <td><%= "ссылка:" %> <%= link_to @about_event.external_link, "http://#{@about_event.external_link}" %></td> <br>
-<td><%= "Организатор:" %> <%= link_to @about_event.organizer.name, about_organizer_path %></td> <br>
+<td><%= "Организатор:" %> <%= link_to @about_event.organizer.name, about_organizer_path(@about_event_organizer_id) %></td> <br>
 <td><%= "Регион:" %> <%= @about_event.region.name %></td> <br><br>
 
 <%= link_to 'CALENDAR URL', about_event_ics_file_url(protocol: :webcal, format: :ics) %> <br>
